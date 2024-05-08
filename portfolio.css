@@ -10,6 +10,9 @@
  font-family: "Poppins",sans-serif;
  text-transform: capitalize;
 }
+html{
+ overflow:hidden;
+}
 :root{
     --green: rgb(83, 153, 83);
     --blue: rgb(32, 88, 112);
