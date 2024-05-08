@@ -16,10 +16,12 @@ html{
 :root{
     --green: rgb(83, 153, 83);
     --blue: rgb(32, 88, 112);
+     overflow: hidden;
 }
 
 body{
     background-color: whitesmoke;
+    overflow: hidden;
 }
 
 header{
