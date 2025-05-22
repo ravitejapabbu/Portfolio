@@ -244,3 +244,16 @@ header #menu-btn{
         display: none;
     }
 }
+
+
+#role::after {
+    content: "|";
+    animation: blink 2s infinite;
+    margin-left: 2px;
+    color: var(--blue);
+  }
+
+  @keyframes blink {
+    0%, 50%, 100% { opacity: 1; }
+    25%, 75% { opacity: 0; }
+  }
